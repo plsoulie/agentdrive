@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.useagentdrive/agentdrive",
+  "title": "agentdrive",
+  "description": "Persistent file storage for AI agents. Save files over MCP, get a link a human can open.",
+  "version": "1.0.0",
+  "websiteUrl": "https://useagentdrive.com",
+  "remotes": [{ "type": "streamable-http", "url": "https://useagentdrive.com/mcp" }]
+}

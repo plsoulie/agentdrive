@@ -1,0 +1,21 @@
+{
+  "name": "agentdrive",
+  "displayName": "agentdrive",
+  "version": "1.0.0",
+  "description": "Persistent file storage for your agent. Save files over MCP and get a link a human can open.",
+  "author": {
+    "name": "agentdrive",
+    "url": "https://useagentdrive.com"
+  },
+  "homepage": "https://useagentdrive.com/guides/claude-code",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "storage",
+    "files",
+    "share"
+  ],
+  "repository": "https://github.com/plsoulie/agentdrive",
+  "privacyPolicyUrl": "https://useagentdrive.com/privacy",
+  "documentationUrl": "https://useagentdrive.com/guides"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "agentdrive",
+  "owner": { "name": "agentdrive", "url": "https://useagentdrive.com" },
+  "plugins": [
+    {
+      "name": "agentdrive",
+      "source": "./",
+      "description": "Persistent file storage for your agent. Save files over MCP and get a link a human can open."
+    }
+  ]
+}
