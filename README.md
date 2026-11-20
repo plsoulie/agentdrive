@@ -4,13 +4,16 @@ Persistent file storage for AI agents. Your agent saves files over MCP, and each
 
 - Site: https://useagentdrive.com
 - MCP server: `https://useagentdrive.com/mcp` (Streamable HTTP, OAuth with PKCE S256)
-- Free drive: 500 MB, 25 MB per file. Drive plan: $9/month, 50 GB, 1 GB per file.
+- Free drive: 500 MB, 100 MB per file. Drive plan: $9/month, 50 GB, 1 GB per file.
 
 ## Tools
 
 | Tool | What it does |
 |---|---|
 | `save_file` | Write text or binary files. Files above 2 MB upload in chunks. |
+| `prepare_upload` | Upload a large file from disk: returns a one-hour upload URL and a ready curl command. |
+| `complete_upload` | Finish a `prepare_upload` after the curl upload; returns the file link. |
+| `import_from_url` | Save a file from a public https link, for agents without a shell. Large files take several calls. |
 | `list_files` | List files, newest first. |
 | `read_file` | Read a file back, whole or in chunks. |
 | `get_file_link` | Get a browser link a human can open. |
